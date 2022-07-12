@@ -1,23 +1,23 @@
-# telco_project
+## telco_project
 
-About the Project
-Objective:
+##About the Project
+#Objective:
 My goal for this project was to discover the driving factors for customer churn at Telco. I will do this through the acquistition, preparation, and exploration of the telco customer data set. This will enable statistical testing, modeling, and model evaluations to be conducted in order to accurately predict customer churn and its driving factors. With that knowledge I will provide Telco a set of recommended actions to reduce churn and increase customer retention.
 
-Initial Hypothesis/Questions:
+##Initial Hypothesis/Questions:
 My intitial thoughts were that the biggest driver of churn was high cost of service for month to month customers. Those locked in a annual or multi-year contract would be far less likely to churn. Additional factors may be payment type and customer tenure (which is inherently related to contract type).
 
-Data Dictionary:
+##Data Dictionary:
 Your readme should include a data dictionary, which is important to provide in order to define and disambiguate each of the variables you are analyzing.
 
-Project Planning:
+##Project Planning:
 I will do this through the acquistition, preparation, and exploration of the telco customer data set. This will enable statistical testing, modeling, and model evaluations to be conducted in order to accurately predict customer churn and its driving factors.
 
-Instructions to reproduce the project and findings:
+##Instructions to reproduce the project and findings:
 
-Key Findings:
+##Key Findings:
 
-For example:
+##For example:
 
 Variable	Meaning
 Survived	
