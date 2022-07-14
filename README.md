@@ -15,23 +15,23 @@ Your readme should include a data dictionary, which is important to provide in o
 
 ## Key Findings:
 
--The overall churn rate for customers at Telco is 26.6%.
+# The overall churn rate for customers at Telco is 26.6%.
   -Fiber optic customers make up 44.0% of customer base and churn at 18.4%.
   -Month to month contract customers make up 55.1% of customer base and churn at 23.5%.
   -Electronic check payment type customers make up 33.6% of customer base and churn at 15.2%.
   -Senior citizens make up 16% of customer base and churn at 41.7%
   
--Median tenure of churned customers: 10 months.
+# Median tenure of churned customers: 10 months.
   -Median tenure of month to month customers that have churned: 7 months.
   -Median tenure of electronic check payment customers that have churned: 9 months.
 
--Average monthly charges: $64.80.
+# Average monthly charges: $64.80.
   -Average monthly charges of customers who have churned: $74.44, 9.64 higher than average.
   -Average monthly charges of fiber customers: $88.13, $23.33 higher than average.
   -Average monthly charges of month to month customers: $73.02, $8.22 higher than average.
   -Average monthly charges of electronic check payment customers: $78.70, $13.90 higher than average.
 
-Tested Hypotheses
+### Tested Hypotheses
 # Ho : Mean of monthly charges of churned customers >= Mean of monthly charges of all customers
 # Ha : Mean of monthly charges of churned customers < Mean of monthly charges of all customers
 
