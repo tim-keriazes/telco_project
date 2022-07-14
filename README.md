@@ -15,11 +15,11 @@ Your readme should include a data dictionary, which is important to provide in o
 
 ## Key Findings:
 
--The overall churn rate for customers at Telco is: ##26.6%
+-The overall churn rate for customers at Telco is: ## 26.6%
 
--Fiber optic customers make up ##44.0% of customer base and churn at ##18.4%
+-Fiber optic customers make up ## 44.0% of customer base and churn at ## 18.4%
 
--Month to month customers make up ##55.1% of customer base and churn at ##23.5%
+-Month to month customers make up ## 55.1% of customer base and churn at ## 23.5%
 
 The customer base that pays with electronic check as a payment type is:
 
