@@ -1,21 +1,55 @@
-## telco_project
+## Classification Project: Telco Churn
 
 ## About the Project
 # Objective:
 My goal for this project was to discover the driving factors for customer churn at Telco. I will do this through the acquistition, preparation, and exploration of the telco customer data set. This will enable statistical testing, modeling, and model evaluations to be conducted in order to accurately predict customer churn and its driving factors. With that knowledge I will provide Telco a set of recommended actions to reduce churn and increase customer retention.
 
 ## Initial Hypothesis/Questions:
-My intitial thoughts were that the biggest driver of churn was high cost of service for month to month customers. Those locked in a annual or multi-year contract would be far less likely to churn. Additional factors may be payment type and customer tenure (which is inherently related to contract type).
+My intitial hypothesis was that the biggest driver to churn was the high cost of service for month to month customers, conversely, I believed that those locked in a annual or multi-year contracts would be far less likely to churn. Additional factors may be payment type customer utilizes, and customer tenure (which is inherently related to contract type), and internet service type.
+
+## Project Planning:
+I will explore my hypothesis through the acquistition, preparation, and exploration of the telco customer data set. This will enable statistical testing, modeling, and model evaluations to be conducted in order to accurately predict customer churn and its driving factors.
 
 ## Data Dictionary:
 Your readme should include a data dictionary, which is important to provide in order to define and disambiguate each of the variables you are analyzing.
 
-## Project Planning:
-I will do this through the acquistition, preparation, and exploration of the telco customer data set. This will enable statistical testing, modeling, and model evaluations to be conducted in order to accurately predict customer churn and its driving factors.
+## Key Findings:
+
+-The overall churn rate for customers at Telco is: ##26.6%
+
+-Fiber optic customers make up ##44.0% of customer base and churn at ##18.4%
+
+-Month to month customers make up ##55.1% of customer base and churn at ##23.5%
+
+The customer base that pays with electronic check as a payment type is:
+
+AVerage tenure of churned customers:
+
+AVerage tenure of fiber customers that have churned:
+
+Average tenure of month to month customers that have churned:
+
+Average tenure of electronic check payment customers that have churned:
+
+AVerage monthly charges:
+
+Average monthly charges of customers who have churned:
+
+Average monthly charges of fiber customers:
+
+Average monthly charges of month to month customers:
+
+Average monthly charges of electronic check payment customers:
+
+
+
+
+
+
+
+
 
 ## Instructions to reproduce the project and findings:
-
-## Key Findings:
 
 ##For example:
 
