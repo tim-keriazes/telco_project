@@ -52,9 +52,9 @@ ___
 | fam_house         | tracks if TELCO customer is NOT Single With Dependents               | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 987, 0=no: 2956                              |
 | stream_media      | tracks if TELCO internet customer streams any media (TV/movies)      | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 2804, 0=no: 1139                             |
 | online_feats      | tracks if TELCO internet customer is using online security or backup | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 2733, 0=no: 1210                             |
-| auto_billpay      | tracks if TELCO customer is signed up for Automatic Billpay          | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 1758, 0=no: 2158                             |
-| sen_int           | tracks if TELCO customer is a senior citizen with internet           | 1 = yes, 0 = no                            | int64   | 3943 non-null                                                      |
-| sen_int_techsup   | tracks if senior citizen internet customer used tech support         | 1 = yes, 0 = no                            | int64   | 3943 non-null 
+| auto_billpay      | tracks if TELCO customer is signed up for Automatic Billpay          | 1 = yes, 0 = no 1=yes: 1758, 0=no: 2158                             |
+| sen_int           | tracks if TELCO customer is a senior citizen with internet           | 1 = yes, 0 = no                                                    |
+| sen_int_techsup   | tracks if senior citizen internet customer used tech support         | 1 = yes, 0 = no  
 
 
 
