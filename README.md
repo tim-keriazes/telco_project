@@ -3,22 +3,22 @@ ___
 
 ___
 ### About the Project
-___ 
-### Objective:
-___ 
-My goal for this project was to discover the driving factors for customer churn at Telco. I will do this through the acquistition, preparation, and exploration of the telco customer data set. This will enable statistical testing, modeling, and model evaluations to be conducted in order to accurately predict customer churn and its driving factors. With that knowledge I will provide Telco a set of recommended actions to reduce churn and increase customer retention.
 
+### Objective:
+
+My goal for this project was to discover the driving factors for customer churn at Telco. I will do this through the acquistition, preparation, and exploration of the telco customer data set. This will enable statistical testing, modeling, and model evaluations to be conducted in order to accurately predict customer churn and its driving factors. With that knowledge I will provide Telco a set of recommended actions to reduce churn and increase customer retention.
+__
 ### Initial Hypothesis/Questions:
 My intitial hypothesis was that the biggest driver to churn was the high cost of service for month to month customers, conversely, I believed that those locked in a annual or multi-year contracts would be far less likely to churn. Additional factors may be payment type customer utilizes, and customer tenure (which is inherently related to contract type), and internet service type.
-
+__
 ### Project Planning:
 I will explore my hypothesis through the acquistition, preparation, and exploration of the telco customer data set. This will enable statistical testing, modeling, and model evaluations to be conducted in order to accurately predict customer churn and its driving factors.
-
+__
 ### Data Dictionary:
 Your readme should include a data dictionary, which is important to provide in order to define and disambiguate each of the variables you are analyzing.
-
+__
 ### Key Findings:
-
+__
 ### The overall churn rate for customers at Telco is 26.6%.
   - Fiber optic customers make up 44.0% of customer base and churn at 18.4%.
   - Month to month contract customers make up 55.1% of customer base and churn at 23.5%.
