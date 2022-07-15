@@ -72,8 +72,7 @@ def prep_telco_data(df):
     df.drop(columns=['gender','partner','dependents','phone_service', \
                      'multiple_lines','online_security','online_backup', \
                      'device_protection','tech_support','streaming_tv', \
-                     'streaming_movies','paperless_billing','churn', \
-                     'contract_type','internet_service_type','payment_type'], inplace=True)
+                     'streaming_movies','paperless_billing'], inplace=True)
 
 
     return df
@@ -93,8 +92,8 @@ def train_validate_test(df):
     return: the three split pandas dataframes-train/validate/test
     """  
     
-    train_validate, test = train_test_split(df, test_size=0.2, random_state=123, stratify=df.churn)
-    train, validate = train_test_split(train_validate, train_size=0.7, random_state=123, stratify=train_validate.churn)
+    train_validate, test = train_test_split(df, test_size=0.2, random_state=123, stratify=df.churn_encoded)
+    train, validate = train_test_split(train_validate, train_size=0.7, random_state=123, stratify=train_validate.churn_encoded)
     return train, validate, test
 
 
