@@ -105,13 +105,13 @@ ___
 
 ## Instructions to reproduce the project and findings:
 
-1. Prep Your Repo
-2. Import appropriate files
-2. Acquire Data
-3. Clean, Prep & Split Data
-5. Explore Data
+1. Prep Your Repo, ensure you can pull db from mysql using credentials from your env.py and my acquire.py
+2. Import appropriate libraries and functions. utilize my prepare.py, aqcuire.py, explore.py
+2. Acquire Data: Read TELCO data from MySQL using the get_telco_data() function in acquire.py
+3. Clean, Prep & Split Data: Using functions tied to each other in prepare.py file:  prep_telco_data(), train_validate_test()
+5. Explore Data: List all categorical & quantitative variables/features. Run exploratory stats functions on Uni-/Bi-/Multi-Variate data found in explore.py and telco_churn_report.ipynb
     - Hypothesis Testing
-6. Identify Baseline
+6. Identify Baseline: establish baseline prediction and accuracy
 7. Modeling
     - Train
     - Validate
