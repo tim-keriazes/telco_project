@@ -18,59 +18,41 @@ ___
 Your readme should include a data dictionary, which is important to provide in order to define and disambiguate each of the variables you are analyzing.
 
 
-___
-# <a name="data-dictionary"></a>Data Dictionary
-|    column_name    |                              description                             | key                                        |  dtype  |                            value_counts                            |
-|:-----------------:|:--------------------------------------------------------------------:|--------------------------------------------|:-------:|:------------------------------------------------------------------:|
-| customer_id       | TELCO customer id                                                    |                                            | object  | 3943 non-null                                                      |
-| gender            | customer gender                                                      | 1 = male, 0 = female                       | int64   | 3943 non-null, 1=male 0=female                        |
-| senior_citizen    | customer senior citizen (age) status                                 | 1 = senior citizen, 0 = not senior citizen | int64   | 3943 non-null, 1=senior citizen 0=not senior citizen   |
-| tenure            | TELCO customer tenure in months                                      |                                            | int64   | 3943 non-null, min: 0 mo, max: 72 mo                               |
-| phone_service     | tracks if customer has TELCO phone service                           | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 3572, 0=no: 371                              |
-| multiple_lines    | tracks if TELCO phone customer has multiple lines                    | 1 = yes, 0 = no, 3 = no phone service      | int64   | 3943 non-null, 1=yes: 1696, 0=no: 1876, 3=no phone service: 371    |
-| online_security   | tracks if TELCO internet customer uses online security               | 1 = yes, 0 = no, 3 = no internet service   | int64   | 3943 non-null, 1=yes: 1130, 0=no: 1973, 3=no internet service: 840 |
-| online_backup     | tracks if TELCO internet customer uses online backup                 | 1 = yes, 0 = no, 3 = no internet service   | int64   | 3943 non-null, 1=yes: 1396, 0=no: 1705, 3=no internet service: 840 |
-| device_protection | tracks if TELCO internet customer uses device protection             | 1 = yes, 0 = no, 3 = no internet service   | int64   | 3943 non-null, 1=yes: 1351, 0=no: 1752, 3=no internet service: 840 |
-| tech_support      | tracks if TELCO internet customer uses tech support                  | 1 = yes, 0 = no, 3 = no internet service   | int64   | 3943 non-null, 1=yes: 1133, 0=no: 1970, 3=no internet service: 840 |
-| paperless_billing | tracks if TELCO customer is signed up for paperless billing          | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 2335, 0=no: 1608                             |
-| monthly_charges   | lists expected month bill for TELCO customer                         |                                            | float64 | 3943 non-null                                                      |
-| total_charges     | lists total charges billed to customer over their TELCO lifetime     |                                            | float64 | 3943 non-null                                                      |
-| churn             | tracks if customer has left TELCO                                    | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 1046, 0=no: 2897,                            |
-| pymt_type_abt     | tracks if TELCO customer pays using Automatic Bank Transfers         | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 875, 0=no: 3068                              |
-| pymt_type_acc     | tracks if TELCO customer pays using Automatic Credit Card payments   | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 883, 0=no: 3060                              |
-| pymt_type_echk    | tracks if TELCO customer pays using Electronic Check payments        | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 1290, 0=no: 2653                             |
-| pymt_type_mchk    | tracks if TELCO customer pays using Electronic Check payments        | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 895, 0=no: 3048                              |
-| intserv_dsl       | tracks if TELCO internet customer has DSL                            | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 1369, 0=no: 2574                             |
-| intserv_fiber     | tracks if TELCO internet customer has Fiber Optic                    | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 1734, 0=no: 2209                             |
-| contract_1yr      | tracks if TELCO customer has a 1 year contract                       | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 822, 0=no: 3121                              |
-| contract_2yr      | tracks if TELCO customer has a 2 year contract                       | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 947, 0=no: 2996                              |
-| contract_m2m      | tracks if TELCO customer has a 2 year contract                       | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 2174, 0=no: 1769                             |
-| phone_multi_line  | tracks if TELCO phone customer has multiple lines                    | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 1696, 0=no: 2247                             |
-| phone_sgl_line    | tracks if TELCO phone customer has multiple lines                    | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 1876, 0=no: 2067                             |
-| sgl_dependents    | tracks if TELCO customer is Single With Dependents                   | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 1153, 0=no: 2790                             |
-| sgl_no_dep        | tracks if TELCO customer is Single WithOUT Dependents                | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 1803, 0=no: 2140                             |
-| fam_house         | tracks if TELCO customer is NOT Single With Dependents               | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 987, 0=no: 2956                              |
-| stream_media      | tracks if TELCO internet customer streams any media (TV/movies)      | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 2804, 0=no: 1139                             |
-| online_feats      | tracks if TELCO internet customer is using online security or backup | 1 = yes, 0 = no                            | int64   | 3943 non-null, 1=yes: 2733, 0=no: 1210                             |
-| auto_billpay      | tracks if TELCO customer is signed up for Automatic Billpay          | 1 = yes, 0 = no 1=yes: 1758, 0=no: 2158                             |
-| sen_int           | tracks if TELCO customer is a senior citizen with internet           | 1 = yes, 0 = no                                                    |
-| sen_int_techsup   | tracks if senior citizen internet customer used tech support         | 1 = yes, 0 = no  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ |0   |senior_citizen                         |7032 non-null   int64   |1 = senior citizen, 0 = not senior citizen
+ |1   |tenure                                 |7032 non-null   int64   |Length in Months
+ |2   |monthly_charges                        |7032 non-null   float64 |Monthly charges in dollars
+ |3   |total_charges                          |7032 non-null   float64 |Total charges in dollars annually
+ |4   |churn                                  |7032 non-null   object  | Yes or No 
+ |5   |contract_type                          |7032 non-null   object  |Month to Month, One Year, Two Year
+ |6   |internet_service_type                  |7032 non-null   object  |DSl, Fiber optic, none
+ |7   |payment_type                           |7032 non-null   object  |Mailed Check, Electronic Check, Credit Card (automatic), Bank Transfer(automatic)
+ |8   |gender_encoded                         |7032 non-null   int64   |1 = female, 0 = male
+ |9   |partner_encoded                        |7032 non-null   int64   |1 = Yes, 0 = No
+ |10  |dependents_encoded                     |7032 non-null   int64   |1 = Yes, 0 = No
+ |11  |phone_service_encoded                  |7032 non-null   int64   |1 = Yes, 0 = No
+ |12  |paperless_billing_encoded              |7032 non-null   int64   |1 = Yes, 0 = No
+ |13  |churn_encoded                          |7032 non-null   int64   |1 = Yes, 0 = No
+ |14  |multiple_lines_No phone service        |7032 non-null   uint8   |1 = Yes, 0 = No
+ |15  |multiple_lines_Yes                     |7032 non-null   uint8   |1 = Yes, 0 = No
+ |16  |online_security_No internet service    |7032 non-null   uint8   |1 = Yes, 0 = No
+ |17  |online_security_Yes                    |7032 non-null   uint8   |1 = Yes, 0 = No
+ |18  |online_backup_No internet service      |7032 non-null   uint8   |1 = Yes, 0 = No
+ |19  |online_backup_Yes                      |7032 non-null   uint8   |1 = Yes, 0 = No
+ |20  |device_protection_No internet service  |7032 non-null   uint8   |1 = Yes, 0 = No
+ |21  |device_protection_Yes                  |7032 non-null   uint8   |1 = Yes, 0 = No
+ |22  |tech_support_No internet service       |7032 non-null   uint8   |1 = Yes, 0 = No
+ |23  |tech_support_Yes                       |7032 non-null   uint8   |1 = Yes, 0 = No
+ |24  |streaming_tv_No internet service       |7032 non-null   uint8   |1 = Yes, 0 = No
+ |25  |streaming_tv_Yes                       |7032 non-null   uint8   |1 = Yes, 0 = No
+ |26  |streaming_movies_No internet service   |7032 non-null   uint8   |1 = Yes, 0 = No
+ |27  |streaming_movies_Yes                   |7032 non-null   uint8   |1 = Yes, 0 = No
+ |28  |contract_type_One year                 |7032 non-null   uint8   |1 = Yes, 0 = No
+ |29  |contract_type_Two year                 |7032 non-null   uint8   |1 = Yes, 0 = No
+ |30  |internet_service_type_Fiber optic      |7032 non-null   uint8   |1 = Yes, 0 = No
+ |31  |internet_service_type_None             |7032 non-null   uint8   |1 = Yes, 0 = No
+ |32  |payment_type_Credit card (automatic)   |7032 non-null   uint8   |1 = Yes, 0 = No
+ |33  |payment_type_Electronic check          |7032 non-null   uint8   |1 = Yes, 0 = No
+ |34  |payment_type_Mailed check              |7032 non-null   uint8   |1 = Yes, 0 = No
 
 ___
 ### Key Findings:
