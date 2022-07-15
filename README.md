@@ -17,8 +17,9 @@ ___
 ### Data Dictionary:
 Your readme should include a data dictionary, which is important to provide in order to define and disambiguate each of the variables you are analyzing.
 
+
 # <a name="data-dictionary"></a>Data Dictionary
-|    index    |                             column_name                              |dtype description key                                        |  description keydescription key                  
+|    index    |                              column/feature name                             | dtype                                        |  key/description  |                                                        |
 |:-----------------:|:--------------------------------------------------------------------:|--------------------------------------------|:-------:|:------------------------------------------------------------------:|
  |0   |senior_citizen                         |7032 non-null   int64   |1 = senior citizen, 0 = not senior citizen
  |1  |tenure                                 |7032 non-null   int64   |Length in Months
