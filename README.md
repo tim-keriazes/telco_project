@@ -38,23 +38,23 @@ ___
 ## Tested Hypotheses
 #### 1. Ho : Mean of monthly charges of churned customers >= Mean of monthly charges of all customers
 ####    Ha : Mean of monthly charges of churned customers < Mean of monthly charges of all customers
-
+___
 #### 2. Ho: mean length tenure of churned customers is <= mean length tenure of all customers
 ####    Ha: mean length tenure of churned customers is > mean length tenure of all customers
-
+___
 #### 3. Charges of customers who churn significantly different than those who do not churn
 ####    Ho: charges of customers who churn equals that of those who don't churn.
 ####    Ha: charges of customers who churn is not equal to that of those who don't churn.
-
+___
 #### 4. Ho : Mean of monthly charges of churned fiber customers >= Mean of monthly charges of all customers
 ####    Ha : Mean of monthly charges of churned fiber customers < Mean of monthly charges of all customers
-
+___
 #### 5. Ho : Mean of monthly charges of churned month to month customers >= Mean of monthly charges of all customers
 ####    Ha : Mean of monthly charges of churned month to month customers < Mean of monthly charges of all customers
-
+___
 #### 6. Ho : Mean of monthly charges of churned electronic check customers >= Mean of monthly charges of all customers
 ####    Ha : Mean of monthly charges of churned electronic customers < Mean of monthly charges of all customers
-
+___
 
 ## Instructions to reproduce the project and findings:
 
