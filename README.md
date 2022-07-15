@@ -1,5 +1,6 @@
 ___ 
 # Classification Project: Telco Churn
+### By Tim Keriazes
 
 ___
 ### About the Project
