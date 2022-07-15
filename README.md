@@ -15,8 +15,6 @@ My intitial hypothesis was that the biggest driver to churn was the high cost of
 I will explore my hypothesis through the acquistition, preparation, and exploration of the telco customer data set. This will enable statistical testing, modeling, and model evaluations to be conducted in order to accurately predict customer churn and its driving factors.
 ___
 ### Data Dictionary:
-Your readme should include a data dictionary, which is important to provide in order to define and disambiguate each of the variables you are analyzing.
-
 
 # <a name="data-dictionary"></a>Data Dictionary
 |    index    |                              column/feature name                             | dtype                                        |  key/description  |                                                        |
