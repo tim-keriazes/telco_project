@@ -105,16 +105,16 @@ ___
 
 ## Instructions to reproduce the project and findings:
 
-1. [Prep Your Repo](final_telco.ipynb#prep-your-repo)
-2. [Import](final_telco.ipynb#import)
-2. [Acquire Data](final_telco.ipynb#acquire-data)
-3. [Clean, Prep & Split Data](final_telco.ipynb#clean-prep-and-split-df)
-5. [Explore Data](final_telco.ipynb#explore-data)
-    - [Hypothesis Testing](final_telco.ipynb#hypothesis-testing)
-6. [Identify Baseline](final_telco.ipynb#identify-baseline)
-7. [Modeling](final_telco.ipynb#modeling)
-    - [Train](final_telco.ipynb#train)
-    - [Validate](final_telco.ipynb#validate)
-    - [Test](final_telco.ipynb#test)
-8. [Predict on Test Model](final_telco.ipynb#predict-on-test-model)
-9. [Export Predictions to CSV](final_telco.ipynb#export-predictions-to-csv)
+1. Prep Your Repo
+2. Import appropriate files
+2. Acquire Data
+3. Clean, Prep & Split Data
+5. Explore Data
+    - Hypothesis Testing
+6. Identify Baseline
+7. Modeling
+    - Train
+    - Validate
+    - Test
+8. Predict on Test Model
+9. Export Predictions to CSV
