@@ -43,8 +43,8 @@ ___
 ####    Ha: mean length tenure of churned customers is > mean length tenure of all customers
 ___
 #### 3. Charges of customers who churn significantly different than those who do not churn
-####    Ho: charges of customers who churn equals that of those who don't churn.
-####    Ha: charges of customers who churn is not equal to that of those who don't churn.
+####    Ho: Charges of customers who churn equals that of those who don't churn.
+####    Ha: Charges of customers who churn is not equal to that of those who don't churn.
 ___
 #### 4. Ho : Mean of monthly charges of churned fiber customers >= Mean of monthly charges of all customers
 ####    Ha : Mean of monthly charges of churned fiber customers < Mean of monthly charges of all customers
