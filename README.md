@@ -17,14 +17,16 @@ ___
 ### Data Dictionary:
 Your readme should include a data dictionary, which is important to provide in order to define and disambiguate each of the variables you are analyzing.
 
-
- |0|   |senior_citizen                         |7032 non-null   int64   |1 = senior citizen, 0 = not senior citizen
- |1|  |tenure                                 |7032 non-null   int64   |Length in Months
- |2|   |monthly_charges                        |7032 non-null   float64 |Monthly charges in dollars
- |3|   |total_charges                          |7032 non-null   float64 |Total charges in dollars annually
- |4|   |churn                                  |7032 non-null   object  | Yes or No 
- |5|   |contract_type                          |7032 non-null   object  |Month to Month, One Year, Two Year
- |6|   |internet_service_type                  |7032 non-null   object  |DSl, Fiber optic, none
+# <a name="data-dictionary"></a>Data Dictionary
+|    column_name    |                              description                             | key                                        |  dtype  |                            value_counts                            |
+|:-----------------:|:--------------------------------------------------------------------:|--------------------------------------------|:-------:|:------------------------------------------------------------------:|
+ |0   |senior_citizen                         |7032 non-null   int64   |1 = senior citizen, 0 = not senior citizen
+ |1  |tenure                                 |7032 non-null   int64   |Length in Months
+ |2   |monthly_charges                        |7032 non-null   float64 |Monthly charges in dollars
+ |3   |total_charges                          |7032 non-null   float64 |Total charges in dollars annually
+ |4   |churn                                  |7032 non-null   object  | Yes or No 
+ |5   |contract_type                          |7032 non-null   object  |Month to Month, One Year, Two Year
+ |6   |internet_service_type                  |7032 non-null   object  |DSl, Fiber optic, none
  |7   |payment_type                           |7032 non-null   object  |Mailed Check, Electronic Check, Credit Card (automatic), Bank Transfer(automatic)
  |8   |gender_encoded                         |7032 non-null   int64   |1 = female, 0 = male
  |9   |partner_encoded                        |7032 non-null   int64   |1 = Yes, 0 = No
